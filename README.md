@@ -1,9 +1,9 @@
-Usage: python unscramble.py <ciphertext-input-file> <dictionary-input-file>
+```Usage: python unscramble.py <ciphertext-input-file> <dictionary-input-file>```
 
-Note: use the already provided "words-sorted-by-pattern" file, which is presorted by letter pattern and word frequencies.
+Note: use the already provided ```words-sorted-by-pattern``` file, which is presorted by letter pattern and word frequencies.
 
 Example 1:
-
+```
 user$ cat ciphertext-mod
 MGG MGSDZ ULC RMUBLUSRCO AOKDBC HCAU ULC TKCR
 RLKGC MGG ULC RSFMD BMFC MDV RCDU NMOCXSSU ICOTMDU USS
@@ -12,8 +12,9 @@ SYUIKVC KD ULC VKIUMDBC M RKGVBMU VKV ZOSRG
 user$ python unscramble.py ciphertext-mod words-sorted-by-pattern
 Score: 84
 ALL ALONG THE WATCHTOWER PRINCE KEPT THE VIEW WHILE ALL THE WOMAN CAME AND WENT BAREFOOT SERVANT TOO OUTSIDE IN THE DISTANCE A WILDCAT DID GROWL TWO RIDER WERE APPROACHING THE WIND BEGIN TO HOWL
-
+```
 Example 2:
+```
 user$ cat ciphertext2-mod
 ISRR ESBYECQ UQT DS DQX Q ARBBXL GBUS
 ISRWQYS XSNQYJTSGJ JDSL IBMRXGJ ECKS DCT GB ZRBJDSU
@@ -21,6 +22,7 @@ DS QUFSX NBBY DBIQYX IDSYS ZQG C EB
 DBIQYX UQCX JDSYSU BGRL BGS NRQZS C FGBI
 UQT UQCX JSRR TS HMCZF TQG C EBJ JB YMG
 BR DBIQYX VMUJ NBCGJSX ICJD DCU EM
+
 
 user$ python unscramble.py ciphertext2-mod words-sorted-by-pattern
 Score: 113
@@ -47,7 +49,7 @@ WELL GEORGIA SAM HE HAD A FLOODY NOSE WELFARE DEPARTMENT THEY WOULDNT GIBE HIM N
 ....
 ....
 ....
-
+```
 
 References:
 http://april.eecs.umich.edu/pdfs/olson2007crypt.pdf
