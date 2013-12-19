@@ -1,5 +1,7 @@
 Usage: python unscramble.py <ciphertext-input-file> <dictionary-input-file>
 
+Note: use the already provided "words-sorted-by-pattern" file, which is presorted by letter pattern and word frequencies.
+
 Example:
 
 user$ cat ciphertext-mod
